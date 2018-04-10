@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{AF60B7B5-04AC-44AB-8CFA-DF1AB6D23EC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - API", "1 - API", "{26A6F474-0D77-4B71-8306-F92F3D9141E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{39FE0E0A-374F-4240-9EDA-EEFA01A8A2B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Services", "3 - Services", "{BBE67024-7EA1-47F6-BB3F-08367A7B1007}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{7BB6DB85-9B8C-4AEC-BE75-DA3D2135D885}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infra", "5 - Infra", "{70C89731-4DF7-4067-A4D6-0D6DDFA99E62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvaGenialInvestimentos.Web", "ProvaGenialInvestimentos.Web\ProvaGenialInvestimentos.Web.csproj", "{730A9CEA-FD61-4588-8DB4-B614235CBAC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvaGenialInvestimentos.API", "ProvaGenialInvestimentos.API\ProvaGenialInvestimentos.API.csproj", "{A28E23DD-07D8-45E6-9609-381C4AA9B0DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvaGenialInvestimentos.Application", "ProvaGenialInvestimentos.Application\ProvaGenialInvestimentos.Application.csproj", "{DA8F4418-E7B1-4A1D-8A4F-A5D1D1DDFB37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvaGenialInvestimentos.Services", "ProvaGenialInvestimentos.Services\ProvaGenialInvestimentos.Services.csproj", "{4D737F8F-C94B-4048-A912-F2660C90B73E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvaGenialInvestimentos.Domain", "ProvaGenialInvestimentos.Domain\ProvaGenialInvestimentos.Domain.csproj", "{7DE4AE23-17DB-4C90-AFE9-FAE1143D368F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvaGenialInvestimentos.Data", "ProvaGenialInvestimentos.Data\ProvaGenialInvestimentos.Data.csproj", "{3B294B2E-3313-4B67-B8EC-61DDE2556CA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvaGenialInvestimentos.Domain.Tests", "ProvaGenialInvestimentos.Domain.Tests\ProvaGenialInvestimentos.Domain.Tests.csproj", "{B0ECE1C9-2BDB-42CA-A648-CFDA2EFA2DB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{730A9CEA-FD61-4588-8DB4-B614235CBAC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{730A9CEA-FD61-4588-8DB4-B614235CBAC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{730A9CEA-FD61-4588-8DB4-B614235CBAC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{730A9CEA-FD61-4588-8DB4-B614235CBAC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A28E23DD-07D8-45E6-9609-381C4AA9B0DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A28E23DD-07D8-45E6-9609-381C4AA9B0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A28E23DD-07D8-45E6-9609-381C4AA9B0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A28E23DD-07D8-45E6-9609-381C4AA9B0DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA8F4418-E7B1-4A1D-8A4F-A5D1D1DDFB37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA8F4418-E7B1-4A1D-8A4F-A5D1D1DDFB37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA8F4418-E7B1-4A1D-8A4F-A5D1D1DDFB37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8F4418-E7B1-4A1D-8A4F-A5D1D1DDFB37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D737F8F-C94B-4048-A912-F2660C90B73E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D737F8F-C94B-4048-A912-F2660C90B73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D737F8F-C94B-4048-A912-F2660C90B73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D737F8F-C94B-4048-A912-F2660C90B73E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DE4AE23-17DB-4C90-AFE9-FAE1143D368F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE4AE23-17DB-4C90-AFE9-FAE1143D368F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE4AE23-17DB-4C90-AFE9-FAE1143D368F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE4AE23-17DB-4C90-AFE9-FAE1143D368F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B294B2E-3313-4B67-B8EC-61DDE2556CA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B294B2E-3313-4B67-B8EC-61DDE2556CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B294B2E-3313-4B67-B8EC-61DDE2556CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B294B2E-3313-4B67-B8EC-61DDE2556CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0ECE1C9-2BDB-42CA-A648-CFDA2EFA2DB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0ECE1C9-2BDB-42CA-A648-CFDA2EFA2DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0ECE1C9-2BDB-42CA-A648-CFDA2EFA2DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0ECE1C9-2BDB-42CA-A648-CFDA2EFA2DB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{730A9CEA-FD61-4588-8DB4-B614235CBAC8} = {AF60B7B5-04AC-44AB-8CFA-DF1AB6D23EC5}
+		{A28E23DD-07D8-45E6-9609-381C4AA9B0DC} = {26A6F474-0D77-4B71-8306-F92F3D9141E1}
+		{DA8F4418-E7B1-4A1D-8A4F-A5D1D1DDFB37} = {39FE0E0A-374F-4240-9EDA-EEFA01A8A2B9}
+		{4D737F8F-C94B-4048-A912-F2660C90B73E} = {BBE67024-7EA1-47F6-BB3F-08367A7B1007}
+		{7DE4AE23-17DB-4C90-AFE9-FAE1143D368F} = {7BB6DB85-9B8C-4AEC-BE75-DA3D2135D885}
+		{3B294B2E-3313-4B67-B8EC-61DDE2556CA2} = {70C89731-4DF7-4067-A4D6-0D6DDFA99E62}
+		{B0ECE1C9-2BDB-42CA-A648-CFDA2EFA2DB8} = {7BB6DB85-9B8C-4AEC-BE75-DA3D2135D885}
+	EndGlobalSection
+EndGlobal
